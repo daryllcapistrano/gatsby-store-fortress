@@ -22,5 +22,5 @@ const mapProductsToItems = products =>
   })
 
 export default ({products}) => (
-  <Card.Group items={mapProductsToItems(products)} itemsPerRow={2} stackable />
+  <Card.Group items={mapProductsToItems(products)} itemsPerRow={3} stackable />
 )

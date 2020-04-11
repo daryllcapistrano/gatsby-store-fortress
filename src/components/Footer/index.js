@@ -3,17 +3,17 @@ import {Link} from 'gatsby'
 import {Segment, Container, Grid, List, Header} from 'semantic-ui-react'
 
 const twitterLink = (
-  <a href="https://twitter.com/parmsang" alt="twitter link">
+  <a href="https://twitter.com/fortress_collage" alt="twitter link">
     Twitter
   </a>
 )
-const facebookLink = (
-  <a href="https://facebook.com/" alt="facebook link">
-    Facebook
+const instagramLink = (
+  <a href="https://instagram.com/fortress_collage/" alt="instagram link">
+    Instagram
   </a>
 )
 const emailLink = (
-  <a href="mailto:john@doe.com" alt="email link">
+  <a href="mailto:fortresscollage@gmail.com" alt="email link">
     Email
   </a>
 )
@@ -24,7 +24,7 @@ const Footer = () => (
     style={{
       padding: '4em 0em',
       marginTop: '3em',
-      borderTop: '1px solid #f2f2f2',
+      borderTop: '0px',
     }}
   >
     <Container text>
@@ -50,10 +50,12 @@ const Footer = () => (
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header as="h4">Footer Header</Header>
+            <Header as="h4">Fortress Skate Company</Header>
             <p>
-              Extra space for a call to action inside the footer that could help
-              re-engage users.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur veniam alias accusantium! Omnis voluptas asperiores
+              quae optio, esse in ducimus amet accusamus consequatur
+              exercitationem officia molestias minima labore, vero facere.
             </p>
             <List horizontal style={{display: 'flex'}}>
               <List.Item
@@ -62,9 +64,9 @@ const Footer = () => (
                 content={twitterLink}
               />
               <List.Item
-                icon="facebook"
+                icon="instagram"
                 style={{display: 'flex'}}
-                content={facebookLink}
+                content={instagramLink}
               />
               <List.Item
                 icon="mail"
